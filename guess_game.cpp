@@ -14,7 +14,7 @@ int main() {
     const int ANSWER = 5;
     int guess_number;
 
-    std::cout << "Enter a number as your guess (1-9): ";
+    std::cout << "Enter a number as your guess (0-9): ";
     std::cin >> guess_number;
 
     if (guess_number == ANSWER) {
