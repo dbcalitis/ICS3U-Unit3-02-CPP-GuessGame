@@ -11,12 +11,15 @@
 int main() {
     // This function checks if your guess is correct
 
+
     const int ANSWER = 5;
     int guess_number;
 
+    // input
     std::cout << "Enter a number as your guess (0-9): ";
     std::cin >> guess_number;
 
+    // process & output
     if (guess_number == ANSWER) {
         std::cout << "You guessed correctly!" << std::endl;
     } else {
