@@ -4,14 +4,11 @@
 // Created on: Sept 2021
 // This program is a number guessing game
 
-
 #include <iostream>
 
 
 int main() {
     // This function checks if your guess is correct
-
-
     const int ANSWER = 5;
     int guessNumber;
 
